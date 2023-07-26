@@ -72,11 +72,11 @@ const OrderDetails = () => {
                 </p>
                 <p>
                     <b>Shipping Charges</b>
-                    ₹{order?.taxPrice}
+                    ₹{order?.shippingCharges}
                 </p>
                 <p>
                     <b>Tax</b>
-                    ₹{order?.shippingCharges}
+                    ₹{order?.taxPrice}
                 </p>
                 <p>
                     <b>Total Amount</b>
